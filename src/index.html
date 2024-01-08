@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <!-- Meta -->
+    @@include('partials/meta-tags.html')
+
+    <title>Pero Travel | Главная</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Header -->
+        @@include('partials/header.html')
+
+        <main class="main" id="main">
+            
+            @@include('partials/pageMain/promo.html')
+            @@include('partials/pageMain/popular.html')
+            @@include('partials/pageMain/about.html')
+            @@include('partials/pageMain/types.html')
+            @@include('partials/gallery.html')
+            @@include('partials/reviews.html')
+            @@include('partials/pageMain/consultation.html')
+            
+        </main>
+
+        <!-- Footer -->
+        @@include('partials/footer.html')
+
+    </div>
+    @@include('partials/modal.html')
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/imask.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
